@@ -16,14 +16,14 @@
         <div class="row gap-2">
             @forelse ($comics as $index => $comic)
                 <div class="col">
-                    <a href="{{ route('comic.show', ['id' => $index]) }}">
+                    {{-- <a href="{{ route('comic.show', ['id' => $index]) }}"> --}}
                     <div class="card">
                         <div class="card-img-container">
                             <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="" style="backgrouns-size: cover;">
                         </div>
                             <span class="card-title">{{ $comic['title'] }}</span>
                     </div>
-                    </a>
+                    {{-- </a> --}}
                 </div>
             @empty
                 <div class="col">
