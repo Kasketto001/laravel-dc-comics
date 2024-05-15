@@ -15,8 +15,8 @@
     <div class="container py-5 d-flex flex-column justify-content-center align-items-center">
         <div class="row gap-2">
             @forelse ($comics as $index => $comic)
-                <div class="col">
-                    {{-- <a href="{{ route('comic.show', ['id' => $index]) }}"> --}}
+                <div class="col-md-3">
+                    <a href="{{route('comics.show', $comic)}}">
                     <div class="card">
                         <div class="card-img-container">
                             <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="" style="backgrouns-size: cover;">

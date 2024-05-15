@@ -23,6 +23,7 @@ class ComicSeeder extends Seeder
             $item->thumb = $comic['thumb'];
             $item->price = $comic['price'];
             $item->sale_date = $comic['sale_date'];
+            $item->series = $comic['series'];
             $item->type = $comic['type'];
             $item->save();
 

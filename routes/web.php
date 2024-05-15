@@ -20,8 +20,4 @@ Route::get('/', [ComicController::class, 'index'])->name('home');
 
 
 Route::resource('/comics', ComicController::class);
-// Route::get('/comic/{id}', function ($id) {
-//     $comics = config('db.comics');
-//     $comic = $comics[$id];
-//     return view('comics.show', compact('comic'));
-// })->name('comic.show');
+
