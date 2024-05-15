@@ -1,0 +1,83 @@
+.title-type {
+
+    .comic-title {
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: rgb(0, 70, 102);
+    }
+
+    span {
+        text-transform: uppercase;
+        font-style: italic;
+        color: rgb(0, 70, 102);
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
+.col p {
+    text-align: justify;
+}
+.col img {
+    width: 400px;
+}
+.col .adv-info {
+    color: #c7c7c7;
+    font-weight: 500;
+}
+
+.series-comic-badge {
+    span {
+        font-weight: 800;
+        font-style: italic;
+            text-transform: uppercase;
+            color: #0d6efd;
+    }
+    .info-badge {
+        border: #0d6efd 3px solid;
+
+        span {
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #0d6efd;
+            font-style: normal;
+        }
+    }
+}
+
+.price-comic-badge {
+    span {
+        font-weight: 800;
+        font-style: italic;
+            text-transform: uppercase;
+            color: #009c1a;
+    }
+    .info-badge {
+        border: #009c1a 3px solid;
+
+        span {
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #009c1a;
+            font-style: normal;
+        }
+    }
+}
+
+.sale-comic-badge {
+    span {
+        font-weight: 800;
+        font-style: italic;
+            text-transform: uppercase;
+            color: #63009c;
+    }
+    .info-badge {
+        border: #63009c 3px solid;
+
+        span {
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #63009c;
+            font-style: normal;
+        }
+    }
+}

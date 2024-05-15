@@ -1,0 +1,58 @@
+@use '~bootstrap/scss/bootstrap';
+
+@use './header.scss';
+@use './_jumbotron.scss';
+@use './footer.scss';
+@use './comic.scss';
+
+
+.section-black {
+    background-color: #1a1a1a;
+
+    .card {
+        height: 300px;
+        width: 300px;
+        background: none;
+    
+        .card-img-container {
+            height: 100%;
+            overflow: hidden;
+        }
+    
+        img.card-img-top {
+            width: 100%;
+            height: 100%; 
+            object-fit: cover;
+        }
+        span {
+            color:white;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+
+    .load-more {
+        width: 200px;
+        border: none;
+        background-color: #0d6efd;
+        color: white;
+        font-weight: 700;
+
+    }
+
+}
+
+.section-blue {
+    background-color: #0d6efd;
+    color: white;
+    .col img {
+        width: 60px;
+    }
+    .col span {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .col img {
+        width: 50px;
+    }
+}

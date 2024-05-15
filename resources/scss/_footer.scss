@@ -1,0 +1,26 @@
+footer {
+    background-image: url('../../public/img/footer-bg.jpg'); 
+    background-size: cover;
+    color: white;
+    padding: 50px 0; 
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+
+    .footer-links {
+        padding-left: 20px; 
+      }
+      .list-unstyled a {
+        text-decoration: none;
+        color: rgb(114, 114, 114);
+        font-weight: 600;
+      }
+      .footer-logo {
+        position: absolute;
+        left: 50%;
+        top: -10%;
+      }
+      span {
+        color: rgb(114, 114, 114);
+      }
+  }

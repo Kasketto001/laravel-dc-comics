@@ -1,0 +1,38 @@
+header a {
+    color: white; 
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-links {
+
+
+
+    a{
+        color: black;
+    }
+    .active {
+        color:#0d6efd;
+    }
+
+}
+
+.search-container{
+    border-bottom: 3px solid #0d6efd;
+
+    input {
+        border: none;
+
+    }
+    input[type="text"]:focus{
+        outline: none;
+    }
+    button {
+        border: none; 
+        background: none;
+        
+        i {
+            font-size: 20px;
+        }
+    }
+}
