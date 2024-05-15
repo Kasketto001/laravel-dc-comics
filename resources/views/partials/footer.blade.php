@@ -22,7 +22,7 @@
       
       <div class="col-md-6 text-right footer-logo">
 
-        <img src="../img/dc-logo-bg.png" alt="Logo">
+        <img src="../../img/dc-logo-bg.png" alt="Logo">
       </div>
       <div class="copy">
       <span>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="">noted here</a>. Allrights reserved.</span>

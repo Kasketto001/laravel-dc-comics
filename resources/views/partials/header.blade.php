@@ -14,7 +14,7 @@
     <div class="main-header">
         <div class="container-xxl py-3">
             <div class="d-flex justify-content-between align-items-center">
-                <a href="{{route('home')}}" class="logo"><img src="../img/dc-logo.png" alt="DC Logo"></a>
+                <a href="{{route('home')}}" class="logo"><img src="../../img/dc-logo.png" alt="DC Logo"></a>
 
                 <nav class="nav-links">
                     <ul class="d-flex list-unstyled gap-4 mb-0">
