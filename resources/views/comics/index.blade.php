@@ -66,7 +66,7 @@
                                                 @csrf
                                                 @method('DELETE')
 
-                                                <button type="button" class="btn btn-danger">
+                                                <button type="submit" class="btn btn-danger">
                                                     Confirm
                                                 </button>
 
